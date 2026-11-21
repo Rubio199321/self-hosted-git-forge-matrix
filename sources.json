@@ -1,0 +1,1158 @@
+{
+  "repository": "self-hosted-git-forge-matrix",
+  "checked_on": "2026-11-21",
+  "language": "en",
+  "policy": "Commit-frozen original upstream documents with located short claims. HEAD availability is identity evidence, not a maintenance verdict.",
+  "sources": [
+    {
+      "name": "Gitea",
+      "repository": "go-gitea/gitea",
+      "url": "https://github.com/go-gitea/gitea",
+      "clone_url": "https://github.com/go-gitea/gitea.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:16:07.455578+08:00",
+      "version_or_commit": "6f8ebc0b2fb0eb247273f7da4059c5e5999de691",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/go-gitea/gitea/6f8ebc0b2fb0eb247273f7da4059c5e5999de691/README.md",
+          "final_url": "https://raw.githubusercontent.com/go-gitea/gitea/6f8ebc0b2fb0eb247273f7da4059c5e5999de691/README.md",
+          "path": "sources/snapshots/go-gitea--gitea-readme.txt",
+          "sha256": "596511a44a8451c5ee3e38547ff19d8d23b8f7f80843ccebee15405b8c898497",
+          "http_status": 200,
+          "line_count": 198,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/go-gitea/gitea/6f8ebc0b2fb0eb247273f7da4059c5e5999de691/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/go-gitea/gitea/6f8ebc0b2fb0eb247273f7da4059c5e5999de691/LICENSE",
+          "path": "sources/snapshots/go-gitea--gitea-license.txt",
+          "sha256": "ed2f10a9d78b8c6c9ef33f1420d0eb266981891caf2f15d630553f02dc60d3ae",
+          "http_status": 200,
+          "line_count": 20,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/go-gitea/gitea.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\n6f8ebc0b2fb0eb247273f7da4059c5e5999de691\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "go-gitea--gitea-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Expected workflow is: Fork -> Patch -> Push -> Pull Request",
+          "upstream_url": "https://raw.githubusercontent.com/go-gitea/gitea/6f8ebc0b2fb0eb247273f7da4059c5e5999de691/README.md",
+          "version_or_commit": "6f8ebc0b2fb0eb247273f7da4059c5e5999de691",
+          "checked_at": "2026-11-21T21:16:07.455578+08:00",
+          "snapshot_path": "sources/snapshots/go-gitea--gitea-readme.txt",
+          "line_start": 51,
+          "line_end": 51,
+          "upstream_excerpt": "Expected workflow is: Fork -> Patch -> Push -> Pull Request",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "go-gitea--gitea-axis-2",
+          "field": "decision_axis_2",
+          "statement": "team collaboration, package registry and CI/CD which can reuse GitHub Actions.",
+          "upstream_url": "https://raw.githubusercontent.com/go-gitea/gitea/6f8ebc0b2fb0eb247273f7da4059c5e5999de691/README.md",
+          "version_or_commit": "6f8ebc0b2fb0eb247273f7da4059c5e5999de691",
+          "checked_at": "2026-11-21T21:16:07.455578+08:00",
+          "snapshot_path": "sources/snapshots/go-gitea--gitea-readme.txt",
+          "line_start": 19,
+          "line_end": 19,
+          "upstream_excerpt": "team collaboration, package registry and CI/CD which can reuse GitHub Actions.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "go-gitea--gitea-axis-3",
+          "field": "decision_axis_3",
+          "statement": "We maintain a list of Gitea-related projects at gitea/awesome-gitea, where you can discover more third-party projects, including SDKs, plugins, themes, and more.",
+          "upstream_url": "https://raw.githubusercontent.com/go-gitea/gitea/6f8ebc0b2fb0eb247273f7da4059c5e5999de691/README.md",
+          "version_or_commit": "6f8ebc0b2fb0eb247273f7da4059c5e5999de691",
+          "checked_at": "2026-11-21T21:16:07.455578+08:00",
+          "snapshot_path": "sources/snapshots/go-gitea--gitea-readme.txt",
+          "line_start": 73,
+          "line_end": 73,
+          "upstream_excerpt": "We maintain a list of Gitea-related projects at [gitea/awesome-gitea](https://gitea.com/gitea/awesome-gitea), where you can discover more third-party projects, including SDKs, plugins, themes, and more.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "go-gitea--gitea-license",
+          "field": "license_model",
+          "statement": "MIT",
+          "upstream_url": "https://raw.githubusercontent.com/go-gitea/gitea/6f8ebc0b2fb0eb247273f7da4059c5e5999de691/LICENSE",
+          "version_or_commit": "6f8ebc0b2fb0eb247273f7da4059c5e5999de691",
+          "checked_at": "2026-11-21T21:16:07.455578+08:00",
+          "snapshot_path": "sources/snapshots/go-gitea--gitea-license.txt",
+          "line_start": 12,
+          "line_end": 12,
+          "upstream_excerpt": "all copies or substantial portions of the Software.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/go-gitea--gitea-observation.json"
+    },
+    {
+      "name": "GitLab CE",
+      "repository": "gitlabhq/gitlabhq",
+      "url": "https://github.com/gitlabhq/gitlabhq",
+      "clone_url": "https://github.com/gitlabhq/gitlabhq.git",
+      "type": "official_github_mirror",
+      "canonical": false,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:16:21.629917+08:00",
+      "version_or_commit": "d7b9a6176ab4e279465ba3ee09922cde2b74de47",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/gitlabhq/gitlabhq/d7b9a6176ab4e279465ba3ee09922cde2b74de47/README.md",
+          "final_url": "https://raw.githubusercontent.com/gitlabhq/gitlabhq/d7b9a6176ab4e279465ba3ee09922cde2b74de47/README.md",
+          "path": "sources/snapshots/gitlabhq--gitlabhq-readme.txt",
+          "sha256": "c96342e8c3e4060dd75a25a9c6d3ecd59c414f73f6e08743e37d68a9829d816d",
+          "http_status": 200,
+          "line_count": 122,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/gitlabhq/gitlabhq/d7b9a6176ab4e279465ba3ee09922cde2b74de47/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/gitlabhq/gitlabhq/d7b9a6176ab4e279465ba3ee09922cde2b74de47/LICENSE",
+          "path": "sources/snapshots/gitlabhq--gitlabhq-license.txt",
+          "sha256": "62dfe4bdd76e08992c09cf335b2374b3e6acd4f2b959b4971760727d9b785ab4",
+          "http_status": 200,
+          "line_count": 28,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/gitlabhq/gitlabhq.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\nd7b9a6176ab4e279465ba3ee09922cde2b74de47\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "gitlabhq--gitlabhq-axis-1",
+          "field": "decision_axis_1",
+          "statement": "If you wish to clone a copy of GitLab without proprietary code, you can use the read-only mirror of GitLab located at https://gitlab.com/gitlab-org/gitlab-foss/. However, please do not submit any issu\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/gitlabhq/gitlabhq/d7b9a6176ab4e279465ba3ee09922cde2b74de47/README.md",
+          "version_or_commit": "d7b9a6176ab4e279465ba3ee09922cde2b74de47",
+          "checked_at": "2026-11-21T21:16:21.629917+08:00",
+          "snapshot_path": "sources/snapshots/gitlabhq--gitlabhq-readme.txt",
+          "line_start": 7,
+          "line_end": 7,
+          "upstream_excerpt": "If you wish to clone a copy of GitLab without proprietary code, you can use the read-only mirror of GitLab located at https://gitlab.com/gitlab-org/gitlab-foss/. However, please do not submit any issues and/or merge requests to that project.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "gitlabhq--gitlabhq-axis-2",
+          "field": "decision_axis_2",
+          "statement": "- Complete continuous integration (CI) and continuous deployment/delivery (CD) pipelines to build, test, and deploy your applications",
+          "upstream_url": "https://raw.githubusercontent.com/gitlabhq/gitlabhq/d7b9a6176ab4e279465ba3ee09922cde2b74de47/README.md",
+          "version_or_commit": "d7b9a6176ab4e279465ba3ee09922cde2b74de47",
+          "checked_at": "2026-11-21T21:16:21.629917+08:00",
+          "snapshot_path": "sources/snapshots/gitlabhq--gitlabhq-readme.txt",
+          "line_start": 19,
+          "line_end": 19,
+          "upstream_excerpt": "- Complete continuous integration (CI) and continuous deployment/delivery (CD) pipelines to build, test, and deploy your applications",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "gitlabhq--gitlabhq-axis-3",
+          "field": "decision_axis_3",
+          "statement": "- Manage Git repositories with fine grained access controls that keep your code secure",
+          "upstream_url": "https://raw.githubusercontent.com/gitlabhq/gitlabhq/d7b9a6176ab4e279465ba3ee09922cde2b74de47/README.md",
+          "version_or_commit": "d7b9a6176ab4e279465ba3ee09922cde2b74de47",
+          "checked_at": "2026-11-21T21:16:21.629917+08:00",
+          "snapshot_path": "sources/snapshots/gitlabhq--gitlabhq-readme.txt",
+          "line_start": 17,
+          "line_end": 17,
+          "upstream_excerpt": "- Manage Git repositories with fine grained access controls that keep your code secure",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "gitlabhq--gitlabhq-license",
+          "field": "license_model",
+          "statement": "open-core: MIT CE plus proprietary/source-available ee code",
+          "upstream_url": "https://raw.githubusercontent.com/gitlabhq/gitlabhq/d7b9a6176ab4e279465ba3ee09922cde2b74de47/LICENSE",
+          "version_or_commit": "d7b9a6176ab4e279465ba3ee09922cde2b74de47",
+          "checked_at": "2026-11-21T21:16:21.629917+08:00",
+          "snapshot_path": "sources/snapshots/gitlabhq--gitlabhq-license.txt",
+          "line_start": 1,
+          "line_end": 25,
+          "upstream_excerpt": "Copyright (c) 2011-present GitLab Inc.\n\nPortions of this software are licensed as follows:\n\n* All content residing under the \"doc/\" directory of this repository is licensed under \"Creative Commons: CC BY-SA 4.0 license\".\n* All content that resides under the \"ee/\" directory of this repository, if that directory exists, is licensed under the license defined in \"ee/LICENSE\".\n* All content that resides under the \"jh/\" directory of this repository, if that directory exists, is licensed under the license defined in \"jh/LICENSE\".\n* All client-side JavaScript (when served directly or after being compiled, arranged, augmented, or combined), is licensed under the \"MIT Expat\" license.\n* All third party components incorporated into the GitLab Software are licensed under the original license provided by the owner of the applicable component.\n* Content outside of the above mentioned directories or restrictions above is available under the \"MIT Expat\" license as defined below.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "official_source_url": "https://gitlab.com/gitlab-org/gitlab",
+      "evidence_record": "sources/snapshots/gitlabhq--gitlabhq-observation.json"
+    },
+    {
+      "name": "OneDev",
+      "repository": "theonedev/onedev",
+      "url": "https://github.com/theonedev/onedev",
+      "clone_url": "https://github.com/theonedev/onedev.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:16:09.781765+08:00",
+      "version_or_commit": "852a011a10c0177b0dad690edea7c0285a9c7de2",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/theonedev/onedev/852a011a10c0177b0dad690edea7c0285a9c7de2/readme.md",
+          "final_url": "https://raw.githubusercontent.com/theonedev/onedev/852a011a10c0177b0dad690edea7c0285a9c7de2/readme.md",
+          "path": "sources/snapshots/theonedev--onedev-readme.txt",
+          "sha256": "26d38058cabee874836d87234b973d1d393d45a9213fbffbcc4b54f9dc2864bc",
+          "http_status": 200,
+          "line_count": 228,
+          "upstream_filename": "readme.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/theonedev/onedev/852a011a10c0177b0dad690edea7c0285a9c7de2/license.txt",
+          "final_url": "https://raw.githubusercontent.com/theonedev/onedev/852a011a10c0177b0dad690edea7c0285a9c7de2/license.txt",
+          "path": "sources/snapshots/theonedev--onedev-license.txt.txt",
+          "sha256": "d03b3e90d03e3f63434eea978823405eab95e6d80573080bb65560824148a24b",
+          "http_status": 200,
+          "line_count": 21,
+          "upstream_filename": "license.txt"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/theonedev/onedev/852a011a10c0177b0dad690edea7c0285a9c7de2/license.txt",
+          "final_url": "https://raw.githubusercontent.com/theonedev/onedev/852a011a10c0177b0dad690edea7c0285a9c7de2/license.txt",
+          "path": "sources/snapshots/theonedev--onedev-license.txt.txt",
+          "sha256": "d03b3e90d03e3f63434eea978823405eab95e6d80573080bb65560824148a24b",
+          "http_status": 200,
+          "line_count": 21,
+          "upstream_filename": "license.txt"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/theonedev/onedev.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\n852a011a10c0177b0dad690edea7c0285a9c7de2\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "theonedev--onedev-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Integrate with Renovate to update project dependencies via pull requests. Merge pull requests automatically when approved by required reviewers, or pass required tests. Tutorial",
+          "upstream_url": "https://raw.githubusercontent.com/theonedev/onedev/852a011a10c0177b0dad690edea7c0285a9c7de2/readme.md",
+          "version_or_commit": "852a011a10c0177b0dad690edea7c0285a9c7de2",
+          "checked_at": "2026-11-21T21:16:09.781765+08:00",
+          "snapshot_path": "sources/snapshots/theonedev--onedev-readme.txt",
+          "line_start": 36,
+          "line_end": 38,
+          "upstream_excerpt": "Integrate with Renovate to update project dependencies via pull requests. \nMerge pull requests automatically when approved by required reviewers, or pass required tests.\n[**Tutorial**](https://docs.onedev.io/tutorials/cicd/dependency-update)",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "theonedev--onedev-axis-2",
+          "field": "decision_axis_2",
+          "statement": "CI/CD pipeline, to facilitate code review. Demo",
+          "upstream_url": "https://raw.githubusercontent.com/theonedev/onedev/852a011a10c0177b0dad690edea7c0285a9c7de2/readme.md",
+          "version_or_commit": "852a011a10c0177b0dad690edea7c0285a9c7de2",
+          "checked_at": "2026-11-21T21:16:09.781765+08:00",
+          "snapshot_path": "sources/snapshots/theonedev--onedev-readme.txt",
+          "line_start": 45,
+          "line_end": 46,
+          "upstream_excerpt": "CI/CD pipeline, to facilitate code review. \n[**Demo**](https://code.onedev.io/demo/react/~files/6039030814aedeaa6ebac706c0886e3675160666/packages/react-dom/src/client/ReactDOMSelect.js?position=source-202.1-202.36-1)",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "theonedev--onedev-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Arrange gadgets in custom dashboard to get important information at a glance. Share dashboard with users or groups, or make it public for everyone. See It In Action",
+          "upstream_url": "https://raw.githubusercontent.com/theonedev/onedev/852a011a10c0177b0dad690edea7c0285a9c7de2/readme.md",
+          "version_or_commit": "852a011a10c0177b0dad690edea7c0285a9c7de2",
+          "checked_at": "2026-11-21T21:16:09.781765+08:00",
+          "snapshot_path": "sources/snapshots/theonedev--onedev-readme.txt",
+          "line_start": 199,
+          "line_end": 202,
+          "upstream_excerpt": "Arrange gadgets in custom dashboard to get important information\nat a glance. Share dashboard with users or groups, or make it public\nfor everyone.\n[**See It In Action**](https://code.onedev.io/~dashboards)",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "theonedev--onedev-license",
+          "field": "license_model",
+          "statement": "MIT root grant; inspect separately supplied components before adoption",
+          "upstream_url": "https://raw.githubusercontent.com/theonedev/onedev/852a011a10c0177b0dad690edea7c0285a9c7de2/license.txt",
+          "version_or_commit": "852a011a10c0177b0dad690edea7c0285a9c7de2",
+          "checked_at": "2026-11-21T21:16:09.781765+08:00",
+          "snapshot_path": "sources/snapshots/theonedev--onedev-license.txt.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "MIT License\n\nCopyright (c) 2023-present OneDev Pty\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/theonedev--onedev-observation.json"
+    },
+    {
+      "name": "GitBucket",
+      "repository": "gitbucket/gitbucket",
+      "url": "https://github.com/gitbucket/gitbucket",
+      "clone_url": "https://github.com/gitbucket/gitbucket.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:16:12.770562+08:00",
+      "version_or_commit": "4b217c482812badc03b1471b199aaf1548db02ca",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/gitbucket/gitbucket/4b217c482812badc03b1471b199aaf1548db02ca/README.md",
+          "final_url": "https://raw.githubusercontent.com/gitbucket/gitbucket/4b217c482812badc03b1471b199aaf1548db02ca/README.md",
+          "path": "sources/snapshots/gitbucket--gitbucket-readme.txt",
+          "sha256": "1f97e1249924e138f315d81207b6f99894db6f3e829c24e6c3b572c65e6d1793",
+          "http_status": 200,
+          "line_count": 92,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/gitbucket/gitbucket/4b217c482812badc03b1471b199aaf1548db02ca/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/gitbucket/gitbucket/4b217c482812badc03b1471b199aaf1548db02ca/LICENSE",
+          "path": "sources/snapshots/gitbucket--gitbucket-license.txt",
+          "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+          "http_status": 200,
+          "line_count": 201,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/gitbucket/gitbucket.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\n4b217c482812badc03b1471b199aaf1548db02ca\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "gitbucket--gitbucket-axis-1",
+          "field": "decision_axis_1",
+          "statement": "- Issues, Pull Requests and Wiki for repositories",
+          "upstream_url": "https://raw.githubusercontent.com/gitbucket/gitbucket/4b217c482812badc03b1471b199aaf1548db02ca/README.md",
+          "version_or_commit": "4b217c482812badc03b1471b199aaf1548db02ca",
+          "checked_at": "2026-11-21T21:16:12.770562+08:00",
+          "snapshot_path": "sources/snapshots/gitbucket--gitbucket-readme.txt",
+          "line_start": 20,
+          "line_end": 20,
+          "upstream_excerpt": "- Issues, Pull Requests and Wiki for repositories",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "gitbucket--gitbucket-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Note 1: GitBuclet 4.47.0 and 4.48.0 contain large database migrations affecting core tables such as REPOSITORY and ACCOUNT. We strongly recommend backing up your database before upgrading.",
+          "upstream_url": "https://raw.githubusercontent.com/gitbucket/gitbucket/4b217c482812badc03b1471b199aaf1548db02ca/README.md",
+          "version_or_commit": "4b217c482812badc03b1471b199aaf1548db02ca",
+          "checked_at": "2026-11-21T21:16:12.770562+08:00",
+          "snapshot_path": "sources/snapshots/gitbucket--gitbucket-readme.txt",
+          "line_start": 69,
+          "line_end": 69,
+          "upstream_excerpt": "**Note 1:** GitBuclet 4.47.0 and 4.48.0 contain large database migrations affecting core tables such as `REPOSITORY` and `ACCOUNT`. We strongly recommend backing up your database before upgrading.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "gitbucket--gitbucket-license",
+          "field": "license_model",
+          "statement": "Apache-2.0",
+          "upstream_url": "https://raw.githubusercontent.com/gitbucket/gitbucket/4b217c482812badc03b1471b199aaf1548db02ca/LICENSE",
+          "version_or_commit": "4b217c482812badc03b1471b199aaf1548db02ca",
+          "checked_at": "2026-11-21T21:16:12.770562+08:00",
+          "snapshot_path": "sources/snapshots/gitbucket--gitbucket-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/gitbucket--gitbucket-observation.json"
+    },
+    {
+      "name": "Soft Serve",
+      "repository": "charmbracelet/soft-serve",
+      "url": "https://github.com/charmbracelet/soft-serve",
+      "clone_url": "https://github.com/charmbracelet/soft-serve.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:16:19.068036+08:00",
+      "version_or_commit": "e87b6c01725c8f5fc3632dfc7e01c1d3f4573840",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/charmbracelet/soft-serve/e87b6c01725c8f5fc3632dfc7e01c1d3f4573840/README.md",
+          "final_url": "https://raw.githubusercontent.com/charmbracelet/soft-serve/e87b6c01725c8f5fc3632dfc7e01c1d3f4573840/README.md",
+          "path": "sources/snapshots/charmbracelet--soft-serve-readme.txt",
+          "sha256": "fdbda75a39a4c5539e48144b1840cf11ae8cb2dc9ca5936e694efc58941dab7d",
+          "http_status": 200,
+          "line_count": 925,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/charmbracelet/soft-serve/e87b6c01725c8f5fc3632dfc7e01c1d3f4573840/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/charmbracelet/soft-serve/e87b6c01725c8f5fc3632dfc7e01c1d3f4573840/LICENSE",
+          "path": "sources/snapshots/charmbracelet--soft-serve-license.txt",
+          "sha256": "699cffa88b62691ea09706d356e5ee0982e87ca2b1c58ca682f27d6ae87f9efc",
+          "http_status": 200,
+          "line_count": 21,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/charmbracelet/soft-serve.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\ne87b6c01725c8f5fc3632dfc7e01c1d3f4573840\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "charmbracelet--soft-serve-axis-2",
+          "field": "decision_axis_2",
+          "statement": "hooks. Defining global hooks is useful if you want to run CI/CD for example.",
+          "upstream_url": "https://raw.githubusercontent.com/charmbracelet/soft-serve/e87b6c01725c8f5fc3632dfc7e01c1d3f4573840/README.md",
+          "version_or_commit": "e87b6c01725c8f5fc3632dfc7e01c1d3f4573840",
+          "checked_at": "2026-11-21T21:16:19.068036+08:00",
+          "snapshot_path": "sources/snapshots/charmbracelet--soft-serve-readme.txt",
+          "line_start": 832,
+          "line_end": 832,
+          "upstream_excerpt": "`hooks`. Defining global hooks is useful if you want to run CI/CD for example.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "charmbracelet--soft-serve-axis-3",
+          "field": "decision_axis_3",
+          "statement": "To continue innovating in this space and supporting our most important work, we\u2019ve sunset Soft Serve. The code will continue to be open source and publicly available. No further security updates will \u2026",
+          "upstream_url": "https://raw.githubusercontent.com/charmbracelet/soft-serve/e87b6c01725c8f5fc3632dfc7e01c1d3f4573840/README.md",
+          "version_or_commit": "e87b6c01725c8f5fc3632dfc7e01c1d3f4573840",
+          "checked_at": "2026-11-21T21:16:19.068036+08:00",
+          "snapshot_path": "sources/snapshots/charmbracelet--soft-serve-readme.txt",
+          "line_start": 3,
+          "line_end": 3,
+          "upstream_excerpt": "To continue innovating in this space and supporting our most important work, we\u2019ve sunset Soft Serve. The code will continue to be open source and publicly available. No further security updates will be applied. If you love this project and would like to maintain a fork, please do.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "charmbracelet--soft-serve-license",
+          "field": "license_model",
+          "statement": "MIT",
+          "upstream_url": "https://raw.githubusercontent.com/charmbracelet/soft-serve/e87b6c01725c8f5fc3632dfc7e01c1d3f4573840/LICENSE",
+          "version_or_commit": "e87b6c01725c8f5fc3632dfc7e01c1d3f4573840",
+          "checked_at": "2026-11-21T21:16:19.068036+08:00",
+          "snapshot_path": "sources/snapshots/charmbracelet--soft-serve-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "MIT License\n\nCopyright (c) 2021-2023 Charmbracelet, Inc\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/charmbracelet--soft-serve-observation.json"
+    },
+    {
+      "name": "Gitblit",
+      "repository": "gitblit-org/gitblit",
+      "url": "https://github.com/gitblit-org/gitblit",
+      "clone_url": "https://github.com/gitblit-org/gitblit.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:16:19.381779+08:00",
+      "version_or_commit": "569d430f299b51b203bce88bc4c8e866a8bd009b",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/gitblit-org/gitblit/569d430f299b51b203bce88bc4c8e866a8bd009b/README.markdown",
+          "final_url": "https://raw.githubusercontent.com/gitblit-org/gitblit/569d430f299b51b203bce88bc4c8e866a8bd009b/README.markdown",
+          "path": "sources/snapshots/gitblit-org--gitblit-readme.txt",
+          "sha256": "da314556185e4b4cd53b6a804e00d9eeb513cc1c9cbcbb6d6718858104e63899",
+          "http_status": 200,
+          "line_count": 68,
+          "upstream_filename": "README.markdown"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/gitblit-org/gitblit/569d430f299b51b203bce88bc4c8e866a8bd009b/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/gitblit-org/gitblit/569d430f299b51b203bce88bc4c8e866a8bd009b/LICENSE",
+          "path": "sources/snapshots/gitblit-org--gitblit-license.txt",
+          "sha256": "5ad8c213095c573921d7388edf93f6a9f54490b8ebf3b165ae8ef1947cf70846",
+          "http_status": 200,
+          "line_count": 201,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/gitblit-org/gitblit.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\n569d430f299b51b203bce88bc4c8e866a8bd009b\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "gitblit-org--gitblit-axis-3",
+          "field": "decision_axis_3",
+          "statement": "1. Import the gitblit project into your Eclipse workspace.",
+          "upstream_url": "https://raw.githubusercontent.com/gitblit-org/gitblit/569d430f299b51b203bce88bc4c8e866a8bd009b/README.markdown",
+          "version_or_commit": "569d430f299b51b203bce88bc4c8e866a8bd009b",
+          "checked_at": "2026-11-21T21:16:19.381779+08:00",
+          "snapshot_path": "sources/snapshots/gitblit-org--gitblit-readme.txt",
+          "line_start": 55,
+          "line_end": 55,
+          "upstream_excerpt": "1. Import the gitblit project into your Eclipse workspace.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "gitblit-org--gitblit-license",
+          "field": "license_model",
+          "statement": "Apache-2.0",
+          "upstream_url": "https://raw.githubusercontent.com/gitblit-org/gitblit/569d430f299b51b203bce88bc4c8e866a8bd009b/LICENSE",
+          "version_or_commit": "569d430f299b51b203bce88bc4c8e866a8bd009b",
+          "checked_at": "2026-11-21T21:16:19.381779+08:00",
+          "snapshot_path": "sources/snapshots/gitblit-org--gitblit-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/gitblit-org--gitblit-observation.json"
+    },
+    {
+      "name": "SCM-Manager",
+      "repository": "scm-manager/scm-manager",
+      "url": "https://github.com/scm-manager/scm-manager",
+      "clone_url": "https://github.com/scm-manager/scm-manager.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:16:19.867668+08:00",
+      "version_or_commit": "b14c0fb2f16eed8f6716e0377fe2007676b68fc1",
+      "branch_at_observation": "develop",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/scm-manager/scm-manager/b14c0fb2f16eed8f6716e0377fe2007676b68fc1/README.md",
+          "final_url": "https://raw.githubusercontent.com/scm-manager/scm-manager/b14c0fb2f16eed8f6716e0377fe2007676b68fc1/README.md",
+          "path": "sources/snapshots/scm-manager--scm-manager-readme.txt",
+          "sha256": "036243f33f8d7d837e668fa7cfd483dc768d6b4ef088000c6530d6c861668fa2",
+          "http_status": 200,
+          "line_count": 176,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/scm-manager/scm-manager/b14c0fb2f16eed8f6716e0377fe2007676b68fc1/LICENSE.txt",
+          "final_url": "https://raw.githubusercontent.com/scm-manager/scm-manager/b14c0fb2f16eed8f6716e0377fe2007676b68fc1/LICENSE.txt",
+          "path": "sources/snapshots/scm-manager--scm-manager-license.txt",
+          "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+          "http_status": 200,
+          "line_count": 661,
+          "upstream_filename": "LICENSE.txt"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/scm-manager/scm-manager.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/develop\tHEAD\nb14c0fb2f16eed8f6716e0377fe2007676b68fc1\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "scm-manager--scm-manager-axis-3",
+          "field": "decision_axis_3",
+          "statement": "The separate build-plugins build imports the same catalog through its settings file. Node and Yarn versions are also centralized in the catalog and accessed with libs.versions.node.get() and libs.vers\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/scm-manager/scm-manager/b14c0fb2f16eed8f6716e0377fe2007676b68fc1/README.md",
+          "version_or_commit": "b14c0fb2f16eed8f6716e0377fe2007676b68fc1",
+          "checked_at": "2026-11-21T21:16:19.867668+08:00",
+          "snapshot_path": "sources/snapshots/scm-manager--scm-manager-readme.txt",
+          "line_start": 103,
+          "line_end": 105,
+          "upstream_excerpt": "The separate `build-plugins` build imports the same catalog through its settings file.\nNode and Yarn versions are also centralized in the catalog and accessed with `libs.versions.node.get()` and `libs.versions.yarn.get()`;\nautomated updates for these tool versions are not configured here.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "scm-manager--scm-manager-license",
+          "field": "license_model",
+          "statement": "AGPL-3.0 at the frozen current revision; historical BSD terms do not describe this checkout",
+          "upstream_url": "https://raw.githubusercontent.com/scm-manager/scm-manager/b14c0fb2f16eed8f6716e0377fe2007676b68fc1/LICENSE.txt",
+          "version_or_commit": "b14c0fb2f16eed8f6716e0377fe2007676b68fc1",
+          "checked_at": "2026-11-21T21:16:19.867668+08:00",
+          "snapshot_path": "sources/snapshots/scm-manager--scm-manager-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU AFFERO GENERAL PUBLIC LICENSE\n                       Version 3, 19 November 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU Affero General Public License is a free, copyleft license for\nsoftware and other kinds of works, specifically designed to ensure\ncooperation with the community in the case of network server software.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/scm-manager--scm-manager-observation.json"
+    },
+    {
+      "name": "Gogs",
+      "repository": "gogs/gogs",
+      "url": "https://github.com/gogs/gogs",
+      "clone_url": "https://github.com/gogs/gogs.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:16:26.482036+08:00",
+      "version_or_commit": "abd4df3745de4316a21e963c0cdba924ba45b2d1",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/gogs/gogs/abd4df3745de4316a21e963c0cdba924ba45b2d1/README.md",
+          "final_url": "https://raw.githubusercontent.com/gogs/gogs/abd4df3745de4316a21e963c0cdba924ba45b2d1/README.md",
+          "path": "sources/snapshots/gogs--gogs-readme.txt",
+          "sha256": "b6a59665edc29f0fe849f4d8b18b9a6fcc2bf8fb3050e03a412cb3cc14d84bad",
+          "http_status": 200,
+          "line_count": 101,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/gogs/gogs/abd4df3745de4316a21e963c0cdba924ba45b2d1/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/gogs/gogs/abd4df3745de4316a21e963c0cdba924ba45b2d1/LICENSE",
+          "path": "sources/snapshots/gogs--gogs-license.txt",
+          "sha256": "4b5bc6bfd453444bdeaa95f9c7c8b280113cc3a72020818ad2578a8800b18a66",
+          "http_status": 200,
+          "line_count": 19,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/gogs/gogs.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\nabd4df3745de4316a21e963c0cdba924ba45b2d1\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "gogs--gogs-axis-1",
+          "field": "decision_axis_1",
+          "statement": "- Pull requests with merge commit, rebase and squash merges, inline reviews\\ and stacks\\.",
+          "upstream_url": "https://raw.githubusercontent.com/gogs/gogs/abd4df3745de4316a21e963c0cdba924ba45b2d1/README.md",
+          "version_or_commit": "abd4df3745de4316a21e963c0cdba924ba45b2d1",
+          "checked_at": "2026-11-21T21:16:26.482036+08:00",
+          "snapshot_path": "sources/snapshots/gogs--gogs-readme.txt",
+          "line_start": 45,
+          "line_end": 45,
+          "upstream_excerpt": "  - Pull requests with merge commit, rebase and squash merges, inline reviews\\* and stacks\\*.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "gogs--gogs-axis-2",
+          "field": "decision_axis_2",
+          "statement": "- Actions\\ and compute\\. - Packages\\ and hosting\\.",
+          "upstream_url": "https://raw.githubusercontent.com/gogs/gogs/abd4df3745de4316a21e963c0cdba924ba45b2d1/README.md",
+          "version_or_commit": "abd4df3745de4316a21e963c0cdba924ba45b2d1",
+          "checked_at": "2026-11-21T21:16:26.482036+08:00",
+          "snapshot_path": "sources/snapshots/gogs--gogs-readme.txt",
+          "line_start": 50,
+          "line_end": 51,
+          "upstream_excerpt": "  - Actions\\* and compute\\*.\n  - Packages\\* and hosting\\*.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "gogs--gogs-axis-3",
+          "field": "decision_axis_3",
+          "statement": "- SHA-256 repositories, deploy keys and LFS (local or S3\\). - Forks, mirrors and migration from other code hosts, with GitHub two-way sync\\.",
+          "upstream_url": "https://raw.githubusercontent.com/gogs/gogs/abd4df3745de4316a21e963c0cdba924ba45b2d1/README.md",
+          "version_or_commit": "abd4df3745de4316a21e963c0cdba924ba45b2d1",
+          "checked_at": "2026-11-21T21:16:26.482036+08:00",
+          "snapshot_path": "sources/snapshots/gogs--gogs-readme.txt",
+          "line_start": 36,
+          "line_end": 37,
+          "upstream_excerpt": "  - SHA-256 repositories, deploy keys and LFS (local or S3\\*).\n  - Forks, mirrors and migration from other code hosts, with GitHub two-way sync\\*.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "gogs--gogs-license",
+          "field": "license_model",
+          "statement": "MIT",
+          "upstream_url": "https://raw.githubusercontent.com/gogs/gogs/abd4df3745de4316a21e963c0cdba924ba45b2d1/LICENSE",
+          "version_or_commit": "abd4df3745de4316a21e963c0cdba924ba45b2d1",
+          "checked_at": "2026-11-21T21:16:26.482036+08:00",
+          "snapshot_path": "sources/snapshots/gogs--gogs-license.txt",
+          "line_start": 11,
+          "line_end": 11,
+          "upstream_excerpt": "all copies or substantial portions of the Software.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/gogs--gogs-observation.json"
+    },
+    {
+      "name": "Forgejo",
+      "repository": "forgejo/forgejo",
+      "url": "https://codeberg.org/forgejo/forgejo",
+      "clone_url": "https://codeberg.org/forgejo/forgejo.git",
+      "type": "upstream_codeberg_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:16:45.275416+08:00",
+      "version_or_commit": "71d3fb8767dc89a14b283b6d3e08c91a66d52525",
+      "branch_at_observation": "forgejo",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://codeberg.org/forgejo/forgejo/raw/commit/71d3fb8767dc89a14b283b6d3e08c91a66d52525/README.md",
+          "final_url": "https://codeberg.org/forgejo/forgejo/raw/commit/71d3fb8767dc89a14b283b6d3e08c91a66d52525/README.md",
+          "path": "sources/snapshots/forgejo--forgejo-readme.txt",
+          "sha256": "f0ba1e22f66048a8665e6a04207ce937b4e95e43e9b0c032ee92ee74109ef0db",
+          "http_status": 200,
+          "line_count": 46,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://codeberg.org/forgejo/forgejo/raw/commit/71d3fb8767dc89a14b283b6d3e08c91a66d52525/LICENSE",
+          "final_url": "https://codeberg.org/forgejo/forgejo/raw/commit/71d3fb8767dc89a14b283b6d3e08c91a66d52525/LICENSE",
+          "path": "sources/snapshots/forgejo--forgejo-license.txt",
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+          "http_status": 200,
+          "line_count": 674,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://codeberg.org/forgejo/forgejo.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/forgejo\tHEAD\n71d3fb8767dc89a14b283b6d3e08c91a66d52525\tHEAD\n633b9601f6b5bf6d8bf348eaa29499147ece57f0\trefs/pull/2477/HEAD\n741191a498f56cafcb267baa52eb2610032d0359\trefs/pull/4313/HEAD\n3eb178db497d255509cdc442664f674afaf51939\trefs/pull/4320/HEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "forgejo--forgejo-axis-1",
+          "field": "decision_axis_1",
+          "statement": "pull requests, wikis, kanban boards and much more to coordinate with your team.",
+          "upstream_url": "https://codeberg.org/forgejo/forgejo/raw/commit/71d3fb8767dc89a14b283b6d3e08c91a66d52525/README.md",
+          "version_or_commit": "71d3fb8767dc89a14b283b6d3e08c91a66d52525",
+          "checked_at": "2026-11-21T21:16:45.275416+08:00",
+          "snapshot_path": "sources/snapshots/forgejo--forgejo-readme.txt",
+          "line_start": 23,
+          "line_end": 23,
+          "upstream_excerpt": "  pull requests, wikis, kanban boards and much more to **coordinate with your team**.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "forgejo--forgejo-axis-2",
+          "field": "decision_axis_2",
+          "statement": "or use the package registry to publish it for docker, npm and many other package managers.",
+          "upstream_url": "https://codeberg.org/forgejo/forgejo/raw/commit/71d3fb8767dc89a14b283b6d3e08c91a66d52525/README.md",
+          "version_or_commit": "71d3fb8767dc89a14b283b6d3e08c91a66d52525",
+          "checked_at": "2026-11-21T21:16:45.275416+08:00",
+          "snapshot_path": "sources/snapshots/forgejo--forgejo-readme.txt",
+          "line_start": 25,
+          "line_end": 25,
+          "upstream_excerpt": "  or use the **package registry** to publish it for docker, npm and many other package managers.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "forgejo--forgejo-license",
+          "field": "license_model",
+          "statement": "GPL-3.0-or-later for v9 and later; pre-v9 releases were MIT",
+          "upstream_url": "https://codeberg.org/forgejo/forgejo/raw/commit/71d3fb8767dc89a14b283b6d3e08c91a66d52525/LICENSE",
+          "version_or_commit": "71d3fb8767dc89a14b283b6d3e08c91a66d52525",
+          "checked_at": "2026-11-21T21:16:45.275416+08:00",
+          "snapshot_path": "sources/snapshots/forgejo--forgejo-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU General Public License is a free, copyleft license for\nsoftware and other kinds of works.\n",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/forgejo--forgejo-observation.json"
+    },
+    {
+      "name": "Gerrit Code Review",
+      "repository": "gerrit-review.googlesource.com/gerrit",
+      "url": "https://gerrit-review.googlesource.com/gerrit",
+      "clone_url": "https://gerrit-review.googlesource.com/gerrit.git",
+      "type": "upstream_gitiles_clone",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:21:10.638397+08:00",
+      "version_or_commit": "b7573770408b832f2f8ccd890da9541db24d2623",
+      "branch_at_observation": "HEAD",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://gerrit.googlesource.com/gerrit/+/b7573770408b832f2f8ccd890da9541db24d2623/README.md?format=TEXT",
+          "final_url": "https://gerrit.googlesource.com/gerrit/+/b7573770408b832f2f8ccd890da9541db24d2623/README.md?format=TEXT",
+          "path": "sources/snapshots/gerrit-review.googlesource.com--gerrit-readme.txt",
+          "sha256": "d4aad02ea29d8ca304288b179aecdec8199969ea83b84c9940ae6143eeb58c15",
+          "http_status": 200,
+          "line_count": 101,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://gerrit.googlesource.com/gerrit/+/b7573770408b832f2f8ccd890da9541db24d2623/COPYING?format=TEXT",
+          "final_url": "https://gerrit.googlesource.com/gerrit/+/b7573770408b832f2f8ccd890da9541db24d2623/COPYING?format=TEXT",
+          "path": "sources/snapshots/gerrit-review.googlesource.com--gerrit-COPYING.txt",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "http_status": 200,
+          "line_count": 202,
+          "upstream_filename": "COPYING"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "GET",
+          "https://gerrit.googlesource.com/gerrit/+/HEAD?format=JSON"
+        ],
+        "identity_output": ")]}'\n{\n  \"commit\": \"b7573770408b832f2f8ccd890da9541db24d2623\",\n  \"tree\": \"2d0ba8e72a68c072c8c1af3fa808dccc879e7167\",\n  \"parents\": [\n    \"bbb5c873e2ec0b4b81ad2b24e158d559502abd24\"\n  ],\n  \"author\": {\n    \"name\": \"David Ostrovsky\",\n    \"email\": \"david@ostrovsky.org\",\n    \"time\": \"Fri Oct 23 19:41:37 2026 +0200\"\n  },\n  \"committer\": {\n    \"name\": \"David Ostrovsky\",\n    \"email\": \"david@ostrovsky.org\",\n    \"time\": \"Fri Nov 20 10:10:48 2026 -0800\"\n  },\n  \"message\": \"Bump commons-net to 3.13.0\\n\\nAn OSV scan of Gerrit\\u0027s CycloneDX SBOM flagged commons-net for\\nCVE-2021-37533. The affected FTP client is not used by Gerrit.\\n\\nGerrit uses commons-net for IMAP/POP3 reception, SMTP delivery and\\ntrusted proxy subnet checks. Update the dependency to remove this\\nfinding from dependency scans.\\n\\nRelease-Notes: Update commons-net to 3.13.0\\nChange-Id: I2ba89889362069ce0b1ee7d61f348329f3f6d80b\\n\",\n  \"tree_diff\": [\n    {\n      \"type\": \"modify\",\n      \"old_id\": \"5846eca1c924286db709b8de71403c6582c2dfbb\",\n      \"old_mode\": 33188,\n      \"old_path\": \"external_deps.lock.json\",\n      \"new_id\": \"235b13f82af54b910fc51f747ad78e7cb0ddc38a\",\n      \"new_mode\": 33188,\n      \"new_path\": \"external_deps.lock.json\"\n    },\n    {\n      \"type\": \"modify\",\n      \"old_id\": \"9d19c8e8835f26e4f03a39c5bddf02fe3e4a8452\",\n      \"old_mode\": 33188,\n      \"old_path\": \"tools/deps.toml\",\n      \"new_id\": \"74c15b063c3e4ca2ba2a45659f199a572f8e000c\",\n      \"new_mode\": 33188,\n      \"new_path\": \"tools/deps.toml\"\n    }\n  ]\n}\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "gerrit-review.googlesource.com--gerrit-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Note that we do not accept Pull Requests via the GitHub mirror.",
+          "upstream_url": "https://gerrit.googlesource.com/gerrit/+/b7573770408b832f2f8ccd890da9541db24d2623/README.md?format=TEXT",
+          "version_or_commit": "b7573770408b832f2f8ccd890da9541db24d2623",
+          "checked_at": "2026-11-21T21:21:10.638397+08:00",
+          "snapshot_path": "sources/snapshots/gerrit-review.googlesource.com--gerrit-readme.txt",
+          "line_start": 51,
+          "line_end": 51,
+          "upstream_excerpt": "Note that we do not accept Pull Requests via the GitHub mirror.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "gerrit-review.googlesource.com--gerrit-axis-2",
+          "field": "decision_axis_2",
+          "statement": "NOTE: release is a counter that starts with 1 and indicates the number of packages that have been released with the same version of the software.",
+          "upstream_url": "https://gerrit.googlesource.com/gerrit/+/b7573770408b832f2f8ccd890da9541db24d2623/README.md?format=TEXT",
+          "version_or_commit": "b7573770408b832f2f8ccd890da9541db24d2623",
+          "checked_at": "2026-11-21T21:21:10.638397+08:00",
+          "snapshot_path": "sources/snapshots/gerrit-review.googlesource.com--gerrit-readme.txt",
+          "line_start": 77,
+          "line_end": 78,
+          "upstream_excerpt": "_NOTE: release is a counter that starts with 1 and indicates the number of packages that have\nbeen released with the same version of the software._",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "gerrit-review.googlesource.com--gerrit-axis-3",
+          "field": "decision_axis_3",
+          "statement": "The instruction how to configure GerritForge/BinTray repositories is here",
+          "upstream_url": "https://gerrit.googlesource.com/gerrit/+/b7573770408b832f2f8ccd890da9541db24d2623/README.md?format=TEXT",
+          "version_or_commit": "b7573770408b832f2f8ccd890da9541db24d2623",
+          "checked_at": "2026-11-21T21:21:10.638397+08:00",
+          "snapshot_path": "sources/snapshots/gerrit-review.googlesource.com--gerrit-readme.txt",
+          "line_start": 70,
+          "line_end": 71,
+          "upstream_excerpt": "The instruction how to configure GerritForge/BinTray repositories is\n[here](https://gitenterprise.me/2015/02/27/gerrit-2-10-rpm-and-debian-packages-available/)",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "gerrit-review.googlesource.com--gerrit-license",
+          "field": "license_model",
+          "statement": "Apache-2.0",
+          "upstream_url": "https://gerrit.googlesource.com/gerrit/+/b7573770408b832f2f8ccd890da9541db24d2623/COPYING?format=TEXT",
+          "version_or_commit": "b7573770408b832f2f8ccd890da9541db24d2623",
+          "checked_at": "2026-11-21T21:21:10.638397+08:00",
+          "snapshot_path": "sources/snapshots/gerrit-review.googlesource.com--gerrit-COPYING.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "\n                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/gerrit-review.googlesource.com--gerrit-observation.json"
+    },
+    {
+      "name": "Pagure",
+      "repository": "forge.fedoraproject.org/apps/pagure",
+      "url": "https://forge.fedoraproject.org/apps/pagure",
+      "clone_url": "https://forge.fedoraproject.org/apps/pagure.git",
+      "type": "upstream_forgejo_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:16:38.894670+08:00",
+      "version_or_commit": "89293fe6500e5ca2f8df389f4bec1a9da71ab75b",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://forge.fedoraproject.org/apps/pagure/raw/commit/89293fe6500e5ca2f8df389f4bec1a9da71ab75b/README.md",
+          "final_url": "https://forge.fedoraproject.org/apps/pagure/raw/commit/89293fe6500e5ca2f8df389f4bec1a9da71ab75b/README.md",
+          "path": "sources/snapshots/forge.fedoraproject.org--apps--pagure-readme.txt",
+          "sha256": "4c984f8418d772d812a6d6d4f50ca67eb1fcfd3f025db29489f599502501453c",
+          "http_status": 200,
+          "line_count": 348,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://forge.fedoraproject.org/apps/pagure/raw/commit/89293fe6500e5ca2f8df389f4bec1a9da71ab75b/LICENSE",
+          "final_url": "https://forge.fedoraproject.org/apps/pagure/raw/commit/89293fe6500e5ca2f8df389f4bec1a9da71ab75b/LICENSE",
+          "path": "sources/snapshots/forge.fedoraproject.org--apps--pagure-license.txt",
+          "sha256": "231f7edcc7352d7734a96eef0b8030f77982678c516876fcb81e25b32d68564c",
+          "http_status": 200,
+          "line_count": 345,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://forge.fedoraproject.org/apps/pagure.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\n89293fe6500e5ca2f8df389f4bec1a9da71ab75b\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "forge.fedoraproject.org--apps--pagure-license",
+          "field": "license_model",
+          "statement": "GPL-2.0-or-later",
+          "upstream_url": "https://forge.fedoraproject.org/apps/pagure/raw/commit/89293fe6500e5ca2f8df389f4bec1a9da71ab75b/LICENSE",
+          "version_or_commit": "89293fe6500e5ca2f8df389f4bec1a9da71ab75b",
+          "checked_at": "2026-11-21T21:16:38.894670+08:00",
+          "snapshot_path": "sources/snapshots/forge.fedoraproject.org--apps--pagure-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "\t\t    GNU GENERAL PUBLIC LICENSE\n\t\t       Version 2, June 1991\n\n Copyright (C) 1989, 1991 Free Software Foundation, Inc.\n     51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n\t\t\t    Preamble\n\n  The licenses for most software are designed to take away your\nfreedom to share and change it.  By contrast, the GNU General Public",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/forge.fedoraproject.org--apps--pagure-observation.json"
+    },
+    {
+      "name": "Apache Allura",
+      "repository": "apache/allura",
+      "url": "https://github.com/apache/allura",
+      "clone_url": "https://github.com/apache/allura.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:16:33.218280+08:00",
+      "version_or_commit": "2ca94f7931ab38c33d0eecc51f8f74c0077c1540",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/apache/allura/2ca94f7931ab38c33d0eecc51f8f74c0077c1540/README.markdown",
+          "final_url": "https://raw.githubusercontent.com/apache/allura/2ca94f7931ab38c33d0eecc51f8f74c0077c1540/README.markdown",
+          "path": "sources/snapshots/apache--allura-readme.txt",
+          "sha256": "e4d386c718e2ccd0881fdfc6abdcaee20115bd0fe1eeea1050cca5ef49d6c013",
+          "http_status": 200,
+          "line_count": 70,
+          "upstream_filename": "README.markdown"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/apache/allura/2ca94f7931ab38c33d0eecc51f8f74c0077c1540/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/apache/allura/2ca94f7931ab38c33d0eecc51f8f74c0077c1540/LICENSE",
+          "path": "sources/snapshots/apache--allura-license.txt",
+          "sha256": "148d688bdb95fa7b471aad685e318ad44f9f2756ba00c0024f76c92e4d0e4556",
+          "http_status": 200,
+          "line_count": 296,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/apache/allura.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\n2ca94f7931ab38c33d0eecc51f8f74c0077c1540\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "apache--allura-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Allura is an open source implementation of a software \"forge\", a web site that manages source code repositories, bug reports, discussions, mailing lists, wiki pages, blogs and more for any number of i\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/apache/allura/2ca94f7931ab38c33d0eecc51f8f74c0077c1540/README.markdown",
+          "version_or_commit": "2ca94f7931ab38c33d0eecc51f8f74c0077c1540",
+          "checked_at": "2026-11-21T21:16:33.218280+08:00",
+          "snapshot_path": "sources/snapshots/apache--allura-readme.txt",
+          "line_start": 27,
+          "line_end": 27,
+          "upstream_excerpt": "Allura is an open source implementation of a software \"forge\", a web site that manages source code repositories, bug reports, discussions, mailing lists, wiki pages, blogs and more for any number of individual projects.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "apache--allura-license",
+          "field": "license_model",
+          "statement": "Apache-2.0",
+          "upstream_url": "https://raw.githubusercontent.com/apache/allura/2ca94f7931ab38c33d0eecc51f8f74c0077c1540/LICENSE",
+          "version_or_commit": "2ca94f7931ab38c33d0eecc51f8f74c0077c1540",
+          "checked_at": "2026-11-21T21:16:33.218280+08:00",
+          "snapshot_path": "sources/snapshots/apache--allura-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "\n                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/apache--allura-observation.json"
+    }
+  ],
+  "checked_at": "2026-11-21T21:30:03.470430+08:00",
+  "review_round": "narrow_remediation"
+}

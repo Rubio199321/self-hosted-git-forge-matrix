@@ -1,0 +1,38 @@
+{
+  "repository": "gogs/gogs",
+  "checked_at": "2026-11-21T21:16:26.482036+08:00",
+  "revision": "abd4df3745de4316a21e963c0cdba924ba45b2d1",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/gogs/gogs.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\nabd4df3745de4316a21e963c0cdba924ba45b2d1\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/gogs/gogs/abd4df3745de4316a21e963c0cdba924ba45b2d1/README.md",
+      "final_url": "https://raw.githubusercontent.com/gogs/gogs/abd4df3745de4316a21e963c0cdba924ba45b2d1/README.md",
+      "path": "sources/snapshots/gogs--gogs-readme.txt",
+      "sha256": "b6a59665edc29f0fe849f4d8b18b9a6fcc2bf8fb3050e03a412cb3cc14d84bad",
+      "http_status": 200,
+      "line_count": 101,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/gogs/gogs/abd4df3745de4316a21e963c0cdba924ba45b2d1/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/gogs/gogs/abd4df3745de4316a21e963c0cdba924ba45b2d1/LICENSE",
+      "path": "sources/snapshots/gogs--gogs-license.txt",
+      "sha256": "4b5bc6bfd453444bdeaa95f9c7c8b280113cc3a72020818ad2578a8800b18a66",
+      "http_status": 200,
+      "line_count": 19,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

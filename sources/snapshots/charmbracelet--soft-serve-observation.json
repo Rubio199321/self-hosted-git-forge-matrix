@@ -1,0 +1,38 @@
+{
+  "repository": "charmbracelet/soft-serve",
+  "checked_at": "2026-11-21T21:16:19.068036+08:00",
+  "revision": "e87b6c01725c8f5fc3632dfc7e01c1d3f4573840",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/charmbracelet/soft-serve.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\ne87b6c01725c8f5fc3632dfc7e01c1d3f4573840\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/charmbracelet/soft-serve/e87b6c01725c8f5fc3632dfc7e01c1d3f4573840/README.md",
+      "final_url": "https://raw.githubusercontent.com/charmbracelet/soft-serve/e87b6c01725c8f5fc3632dfc7e01c1d3f4573840/README.md",
+      "path": "sources/snapshots/charmbracelet--soft-serve-readme.txt",
+      "sha256": "fdbda75a39a4c5539e48144b1840cf11ae8cb2dc9ca5936e694efc58941dab7d",
+      "http_status": 200,
+      "line_count": 925,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/charmbracelet/soft-serve/e87b6c01725c8f5fc3632dfc7e01c1d3f4573840/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/charmbracelet/soft-serve/e87b6c01725c8f5fc3632dfc7e01c1d3f4573840/LICENSE",
+      "path": "sources/snapshots/charmbracelet--soft-serve-license.txt",
+      "sha256": "699cffa88b62691ea09706d356e5ee0982e87ca2b1c58ca682f27d6ae87f9efc",
+      "http_status": 200,
+      "line_count": 21,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,38 @@
+{
+  "repository": "gitbucket/gitbucket",
+  "checked_at": "2026-11-21T21:16:12.770562+08:00",
+  "revision": "4b217c482812badc03b1471b199aaf1548db02ca",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/gitbucket/gitbucket.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\n4b217c482812badc03b1471b199aaf1548db02ca\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/gitbucket/gitbucket/4b217c482812badc03b1471b199aaf1548db02ca/README.md",
+      "final_url": "https://raw.githubusercontent.com/gitbucket/gitbucket/4b217c482812badc03b1471b199aaf1548db02ca/README.md",
+      "path": "sources/snapshots/gitbucket--gitbucket-readme.txt",
+      "sha256": "1f97e1249924e138f315d81207b6f99894db6f3e829c24e6c3b572c65e6d1793",
+      "http_status": 200,
+      "line_count": 92,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/gitbucket/gitbucket/4b217c482812badc03b1471b199aaf1548db02ca/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/gitbucket/gitbucket/4b217c482812badc03b1471b199aaf1548db02ca/LICENSE",
+      "path": "sources/snapshots/gitbucket--gitbucket-license.txt",
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "http_status": 200,
+      "line_count": 201,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

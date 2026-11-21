@@ -1,0 +1,38 @@
+{
+  "repository": "gitlabhq/gitlabhq",
+  "checked_at": "2026-11-21T21:16:21.629917+08:00",
+  "revision": "d7b9a6176ab4e279465ba3ee09922cde2b74de47",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/gitlabhq/gitlabhq.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\nd7b9a6176ab4e279465ba3ee09922cde2b74de47\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/gitlabhq/gitlabhq/d7b9a6176ab4e279465ba3ee09922cde2b74de47/README.md",
+      "final_url": "https://raw.githubusercontent.com/gitlabhq/gitlabhq/d7b9a6176ab4e279465ba3ee09922cde2b74de47/README.md",
+      "path": "sources/snapshots/gitlabhq--gitlabhq-readme.txt",
+      "sha256": "c96342e8c3e4060dd75a25a9c6d3ecd59c414f73f6e08743e37d68a9829d816d",
+      "http_status": 200,
+      "line_count": 122,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/gitlabhq/gitlabhq/d7b9a6176ab4e279465ba3ee09922cde2b74de47/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/gitlabhq/gitlabhq/d7b9a6176ab4e279465ba3ee09922cde2b74de47/LICENSE",
+      "path": "sources/snapshots/gitlabhq--gitlabhq-license.txt",
+      "sha256": "62dfe4bdd76e08992c09cf335b2374b3e6acd4f2b959b4971760727d9b785ab4",
+      "http_status": 200,
+      "line_count": 28,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

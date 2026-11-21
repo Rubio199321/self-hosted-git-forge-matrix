@@ -1,0 +1,38 @@
+{
+  "repository": "gitblit-org/gitblit",
+  "checked_at": "2026-11-21T21:16:19.381779+08:00",
+  "revision": "569d430f299b51b203bce88bc4c8e866a8bd009b",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/gitblit-org/gitblit.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\n569d430f299b51b203bce88bc4c8e866a8bd009b\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/gitblit-org/gitblit/569d430f299b51b203bce88bc4c8e866a8bd009b/README.markdown",
+      "final_url": "https://raw.githubusercontent.com/gitblit-org/gitblit/569d430f299b51b203bce88bc4c8e866a8bd009b/README.markdown",
+      "path": "sources/snapshots/gitblit-org--gitblit-readme.txt",
+      "sha256": "da314556185e4b4cd53b6a804e00d9eeb513cc1c9cbcbb6d6718858104e63899",
+      "http_status": 200,
+      "line_count": 68,
+      "upstream_filename": "README.markdown"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/gitblit-org/gitblit/569d430f299b51b203bce88bc4c8e866a8bd009b/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/gitblit-org/gitblit/569d430f299b51b203bce88bc4c8e866a8bd009b/LICENSE",
+      "path": "sources/snapshots/gitblit-org--gitblit-license.txt",
+      "sha256": "5ad8c213095c573921d7388edf93f6a9f54490b8ebf3b165ae8ef1947cf70846",
+      "http_status": 200,
+      "line_count": 201,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

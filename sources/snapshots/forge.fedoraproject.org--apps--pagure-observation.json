@@ -1,0 +1,38 @@
+{
+  "repository": "forge.fedoraproject.org/apps/pagure",
+  "checked_at": "2026-11-21T21:16:38.894670+08:00",
+  "revision": "89293fe6500e5ca2f8df389f4bec1a9da71ab75b",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://forge.fedoraproject.org/apps/pagure.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\n89293fe6500e5ca2f8df389f4bec1a9da71ab75b\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://forge.fedoraproject.org/apps/pagure/raw/commit/89293fe6500e5ca2f8df389f4bec1a9da71ab75b/README.md",
+      "final_url": "https://forge.fedoraproject.org/apps/pagure/raw/commit/89293fe6500e5ca2f8df389f4bec1a9da71ab75b/README.md",
+      "path": "sources/snapshots/forge.fedoraproject.org--apps--pagure-readme.txt",
+      "sha256": "4c984f8418d772d812a6d6d4f50ca67eb1fcfd3f025db29489f599502501453c",
+      "http_status": 200,
+      "line_count": 348,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://forge.fedoraproject.org/apps/pagure/raw/commit/89293fe6500e5ca2f8df389f4bec1a9da71ab75b/LICENSE",
+      "final_url": "https://forge.fedoraproject.org/apps/pagure/raw/commit/89293fe6500e5ca2f8df389f4bec1a9da71ab75b/LICENSE",
+      "path": "sources/snapshots/forge.fedoraproject.org--apps--pagure-license.txt",
+      "sha256": "231f7edcc7352d7734a96eef0b8030f77982678c516876fcb81e25b32d68564c",
+      "http_status": 200,
+      "line_count": 345,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

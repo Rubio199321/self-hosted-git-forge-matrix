@@ -1,0 +1,38 @@
+{
+  "repository": "go-gitea/gitea",
+  "checked_at": "2026-11-21T21:16:07.455578+08:00",
+  "revision": "6f8ebc0b2fb0eb247273f7da4059c5e5999de691",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/go-gitea/gitea.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\n6f8ebc0b2fb0eb247273f7da4059c5e5999de691\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/go-gitea/gitea/6f8ebc0b2fb0eb247273f7da4059c5e5999de691/README.md",
+      "final_url": "https://raw.githubusercontent.com/go-gitea/gitea/6f8ebc0b2fb0eb247273f7da4059c5e5999de691/README.md",
+      "path": "sources/snapshots/go-gitea--gitea-readme.txt",
+      "sha256": "596511a44a8451c5ee3e38547ff19d8d23b8f7f80843ccebee15405b8c898497",
+      "http_status": 200,
+      "line_count": 198,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/go-gitea/gitea/6f8ebc0b2fb0eb247273f7da4059c5e5999de691/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/go-gitea/gitea/6f8ebc0b2fb0eb247273f7da4059c5e5999de691/LICENSE",
+      "path": "sources/snapshots/go-gitea--gitea-license.txt",
+      "sha256": "ed2f10a9d78b8c6c9ef33f1420d0eb266981891caf2f15d630553f02dc60d3ae",
+      "http_status": 200,
+      "line_count": 20,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

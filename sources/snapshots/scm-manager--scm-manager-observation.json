@@ -1,0 +1,38 @@
+{
+  "repository": "scm-manager/scm-manager",
+  "checked_at": "2026-11-21T21:16:19.867668+08:00",
+  "revision": "b14c0fb2f16eed8f6716e0377fe2007676b68fc1",
+  "branch": "develop",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/scm-manager/scm-manager.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/develop\tHEAD\nb14c0fb2f16eed8f6716e0377fe2007676b68fc1\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/scm-manager/scm-manager/b14c0fb2f16eed8f6716e0377fe2007676b68fc1/README.md",
+      "final_url": "https://raw.githubusercontent.com/scm-manager/scm-manager/b14c0fb2f16eed8f6716e0377fe2007676b68fc1/README.md",
+      "path": "sources/snapshots/scm-manager--scm-manager-readme.txt",
+      "sha256": "036243f33f8d7d837e668fa7cfd483dc768d6b4ef088000c6530d6c861668fa2",
+      "http_status": 200,
+      "line_count": 176,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/scm-manager/scm-manager/b14c0fb2f16eed8f6716e0377fe2007676b68fc1/LICENSE.txt",
+      "final_url": "https://raw.githubusercontent.com/scm-manager/scm-manager/b14c0fb2f16eed8f6716e0377fe2007676b68fc1/LICENSE.txt",
+      "path": "sources/snapshots/scm-manager--scm-manager-license.txt",
+      "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+      "http_status": 200,
+      "line_count": 661,
+      "upstream_filename": "LICENSE.txt"
+    }
+  ],
+  "failures": []
+}

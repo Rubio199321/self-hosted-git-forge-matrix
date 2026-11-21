@@ -1,0 +1,38 @@
+{
+  "repository": "apache/allura",
+  "checked_at": "2026-11-21T21:16:33.218280+08:00",
+  "revision": "2ca94f7931ab38c33d0eecc51f8f74c0077c1540",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/apache/allura.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\n2ca94f7931ab38c33d0eecc51f8f74c0077c1540\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/apache/allura/2ca94f7931ab38c33d0eecc51f8f74c0077c1540/README.markdown",
+      "final_url": "https://raw.githubusercontent.com/apache/allura/2ca94f7931ab38c33d0eecc51f8f74c0077c1540/README.markdown",
+      "path": "sources/snapshots/apache--allura-readme.txt",
+      "sha256": "e4d386c718e2ccd0881fdfc6abdcaee20115bd0fe1eeea1050cca5ef49d6c013",
+      "http_status": 200,
+      "line_count": 70,
+      "upstream_filename": "README.markdown"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/apache/allura/2ca94f7931ab38c33d0eecc51f8f74c0077c1540/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/apache/allura/2ca94f7931ab38c33d0eecc51f8f74c0077c1540/LICENSE",
+      "path": "sources/snapshots/apache--allura-license.txt",
+      "sha256": "148d688bdb95fa7b471aad685e318ad44f9f2756ba00c0024f76c92e4d0e4556",
+      "http_status": 200,
+      "line_count": 296,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

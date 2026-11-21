@@ -1,0 +1,35 @@
+{
+  "repository": "gerrit-review.googlesource.com/gerrit",
+  "checked_at": "2026-11-21T21:21:10.638397+08:00",
+  "revision": "b7573770408b832f2f8ccd890da9541db24d2623",
+  "branch": "HEAD",
+  "identity_command": [
+    "GET",
+    "https://gerrit.googlesource.com/gerrit/+/HEAD?format=JSON"
+  ],
+  "identity_output": ")]}'\n{\n  \"commit\": \"b7573770408b832f2f8ccd890da9541db24d2623\",\n  \"tree\": \"2d0ba8e72a68c072c8c1af3fa808dccc879e7167\",\n  \"parents\": [\n    \"bbb5c873e2ec0b4b81ad2b24e158d559502abd24\"\n  ],\n  \"author\": {\n    \"name\": \"David Ostrovsky\",\n    \"email\": \"david@ostrovsky.org\",\n    \"time\": \"Fri Oct 23 19:41:37 2026 +0200\"\n  },\n  \"committer\": {\n    \"name\": \"David Ostrovsky\",\n    \"email\": \"david@ostrovsky.org\",\n    \"time\": \"Fri Nov 20 10:10:48 2026 -0800\"\n  },\n  \"message\": \"Bump commons-net to 3.13.0\\n\\nAn OSV scan of Gerrit\\u0027s CycloneDX SBOM flagged commons-net for\\nCVE-2021-37533. The affected FTP client is not used by Gerrit.\\n\\nGerrit uses commons-net for IMAP/POP3 reception, SMTP delivery and\\ntrusted proxy subnet checks. Update the dependency to remove this\\nfinding from dependency scans.\\n\\nRelease-Notes: Update commons-net to 3.13.0\\nChange-Id: I2ba89889362069ce0b1ee7d61f348329f3f6d80b\\n\",\n  \"tree_diff\": [\n    {\n      \"type\": \"modify\",\n      \"old_id\": \"5846eca1c924286db709b8de71403c6582c2dfbb\",\n      \"old_mode\": 33188,\n      \"old_path\": \"external_deps.lock.json\",\n      \"new_id\": \"235b13f82af54b910fc51f747ad78e7cb0ddc38a\",\n      \"new_mode\": 33188,\n      \"new_path\": \"external_deps.lock.json\"\n    },\n    {\n      \"type\": \"modify\",\n      \"old_id\": \"9d19c8e8835f26e4f03a39c5bddf02fe3e4a8452\",\n      \"old_mode\": 33188,\n      \"old_path\": \"tools/deps.toml\",\n      \"new_id\": \"74c15b063c3e4ca2ba2a45659f199a572f8e000c\",\n      \"new_mode\": 33188,\n      \"new_path\": \"tools/deps.toml\"\n    }\n  ]\n}\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://gerrit.googlesource.com/gerrit/+/b7573770408b832f2f8ccd890da9541db24d2623/README.md?format=TEXT",
+      "final_url": "https://gerrit.googlesource.com/gerrit/+/b7573770408b832f2f8ccd890da9541db24d2623/README.md?format=TEXT",
+      "path": "sources/snapshots/gerrit-review.googlesource.com--gerrit-readme.txt",
+      "sha256": "d4aad02ea29d8ca304288b179aecdec8199969ea83b84c9940ae6143eeb58c15",
+      "http_status": 200,
+      "line_count": 101,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://gerrit.googlesource.com/gerrit/+/b7573770408b832f2f8ccd890da9541db24d2623/COPYING?format=TEXT",
+      "final_url": "https://gerrit.googlesource.com/gerrit/+/b7573770408b832f2f8ccd890da9541db24d2623/COPYING?format=TEXT",
+      "path": "sources/snapshots/gerrit-review.googlesource.com--gerrit-COPYING.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "http_status": 200,
+      "line_count": 202,
+      "upstream_filename": "COPYING"
+    }
+  ],
+  "failures": []
+}

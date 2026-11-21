@@ -1,0 +1,48 @@
+{
+  "repository": "theonedev/onedev",
+  "checked_at": "2026-11-21T21:16:09.781765+08:00",
+  "revision": "852a011a10c0177b0dad690edea7c0285a9c7de2",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/theonedev/onedev.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\n852a011a10c0177b0dad690edea7c0285a9c7de2\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/theonedev/onedev/852a011a10c0177b0dad690edea7c0285a9c7de2/readme.md",
+      "final_url": "https://raw.githubusercontent.com/theonedev/onedev/852a011a10c0177b0dad690edea7c0285a9c7de2/readme.md",
+      "path": "sources/snapshots/theonedev--onedev-readme.txt",
+      "sha256": "26d38058cabee874836d87234b973d1d393d45a9213fbffbcc4b54f9dc2864bc",
+      "http_status": 200,
+      "line_count": 228,
+      "upstream_filename": "readme.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/theonedev/onedev/852a011a10c0177b0dad690edea7c0285a9c7de2/license.txt",
+      "final_url": "https://raw.githubusercontent.com/theonedev/onedev/852a011a10c0177b0dad690edea7c0285a9c7de2/license.txt",
+      "path": "sources/snapshots/theonedev--onedev-license.txt.txt",
+      "sha256": "d03b3e90d03e3f63434eea978823405eab95e6d80573080bb65560824148a24b",
+      "http_status": 200,
+      "line_count": 21,
+      "upstream_filename": "license.txt"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/theonedev/onedev/852a011a10c0177b0dad690edea7c0285a9c7de2/license.txt",
+      "final_url": "https://raw.githubusercontent.com/theonedev/onedev/852a011a10c0177b0dad690edea7c0285a9c7de2/license.txt",
+      "path": "sources/snapshots/theonedev--onedev-license.txt.txt",
+      "sha256": "d03b3e90d03e3f63434eea978823405eab95e6d80573080bb65560824148a24b",
+      "http_status": 200,
+      "line_count": 21,
+      "upstream_filename": "license.txt"
+    }
+  ],
+  "failures": []
+}

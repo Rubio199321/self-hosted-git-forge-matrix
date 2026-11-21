@@ -1,0 +1,38 @@
+{
+  "repository": "forgejo/forgejo",
+  "checked_at": "2026-11-21T21:16:45.275416+08:00",
+  "revision": "71d3fb8767dc89a14b283b6d3e08c91a66d52525",
+  "branch": "forgejo",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://codeberg.org/forgejo/forgejo.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/forgejo\tHEAD\n71d3fb8767dc89a14b283b6d3e08c91a66d52525\tHEAD\n633b9601f6b5bf6d8bf348eaa29499147ece57f0\trefs/pull/2477/HEAD\n741191a498f56cafcb267baa52eb2610032d0359\trefs/pull/4313/HEAD\n3eb178db497d255509cdc442664f674afaf51939\trefs/pull/4320/HEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://codeberg.org/forgejo/forgejo/raw/commit/71d3fb8767dc89a14b283b6d3e08c91a66d52525/README.md",
+      "final_url": "https://codeberg.org/forgejo/forgejo/raw/commit/71d3fb8767dc89a14b283b6d3e08c91a66d52525/README.md",
+      "path": "sources/snapshots/forgejo--forgejo-readme.txt",
+      "sha256": "f0ba1e22f66048a8665e6a04207ce937b4e95e43e9b0c032ee92ee74109ef0db",
+      "http_status": 200,
+      "line_count": 46,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://codeberg.org/forgejo/forgejo/raw/commit/71d3fb8767dc89a14b283b6d3e08c91a66d52525/LICENSE",
+      "final_url": "https://codeberg.org/forgejo/forgejo/raw/commit/71d3fb8767dc89a14b283b6d3e08c91a66d52525/LICENSE",
+      "path": "sources/snapshots/forgejo--forgejo-license.txt",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "http_status": 200,
+      "line_count": 674,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}
