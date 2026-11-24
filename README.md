@@ -1,6 +1,5 @@
 # Self-Hosted Git Forge Matrix
 
-
 > **Decision:** Use this matrix to decide how much collaboration and DevOps surface a self-hosted forge should own; skip it if repository hosting alone is being mistaken for review, CI, packages, and recovery.
 >
 > **For:** developer teams migrating repositories and collaboration off a hosted forge  ·  **Not for:** teams unwilling to test import, backup, restore, and upgrade paths
@@ -10,7 +9,6 @@ This is a non-commercial, source-traceable decision guide. It normalizes upstrea
 **Start here:** [Download the forge workflow matrix](assets/forge-workflow-matrix.csv) — twelve projects, located upstream evidence, and explicit unknowns.
 
 ## Choose by workload
-
 
 - Lightweight all-purpose forge: Gitea, Forgejo, Gogs, or GitBucket, after testing importers and actions/plugins.
 - Integrated DevOps: GitLab CE or OneDev, accepting their greater operational ownership.
@@ -24,13 +22,11 @@ SSH authorization, patch-set review and pull-request platforms are not interchan
 
 ## Collaboration model map
 
-
 - **General lightweight forges** — Gitea, Forgejo, Gogs, and GitBucket cover repositories and issue/review workflows with different ecosystems and migration compatibility.
 - **Integrated platforms** — GitLab CE and OneDev also own CI or packages; their databases, object storage, runners, and upgrades are one operating system.
 - **Specialized Git collaboration** — Gerrit centers patch-set review; Gitolite centers SSH authorization; neither should be scored as a GitHub-clone UI.
 - **Extensible or classic forges** — SCM-Manager, Apache Allura, and Pagure expose plugin or project-hosting models; verify current canonical docs and migration exporters.
 - **Historical context** — Soft Serve demonstrates an SSH-first terminal forge, but upstream has sunset it and promises no further security updates.
-
 
 ## Forge workflow matrix
 
@@ -53,9 +49,7 @@ Values are short excerpts from the frozen upstream README, not feature-test scor
 
 ## Assemble the minimal stack
 
-
 Inventory repositories, issues, pull/merge requests, LFS, wiki, releases, packages, CI secrets, deploy keys, webhooks, users, and audit history separately. Trial one repository with protected branches and CI. Keep the old forge read-only until hashes, permissions, issues, and clone URLs are reconciled.
-
 
 ## Adoption notes by project
 
