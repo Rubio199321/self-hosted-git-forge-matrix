@@ -1,8 +1,9 @@
 # Self-Hosted Git Forge Matrix
 
-> **Decision:** Choose how much collaboration and DevOps surface the forge must own, from SSH authorization through review-centric workflow to an integrated platform.
 
-**For:** A developer team moving repositories, issues, code review, CI, and packages off a hosted forge.  
+> **Decision:** Use this matrix to decide how much collaboration and DevOps surface a self-hosted forge should own; skip it if repository hosting alone is being mistaken for review, CI, packages, and recovery.
+>
+> **For:** developer teams migrating repositories and collaboration off a hosted forge  ·  **Not for:** teams unwilling to test import, backup, restore, and upgrade paths
 
 This is a non-commercial, source-traceable decision guide. It normalizes upstream declarations; it does not claim that repository reachability proves functionality, security, maintenance, or fitness.
 
@@ -153,6 +154,12 @@ Inventory repositories, issues, pull/merge requests, LFS, wiki, releases, packag
 
 Developer collaboration and forge migration, not coding-agent evaluation or deployment control planes.
 
+## Adjacent guides
+
+- [open-source-secrets-management-landscape](https://github.com/RichardPadavttan/open-source-secrets-management-landscape) — Use it when forge, CI, and deployment credentials need a deliberate delivery and rotation model.
+- [encrypted-backup-tool-selector](https://github.com/Anguianodd/encrypted-backup-tool-selector) — Use it when repositories, metadata, and forge state need an independently tested backup path.
+- [self-hosted-container-management-map](https://github.com/Hervieux39AC/self-hosted-container-management-map) — Use it when the forge is deployed in containers and the control plane must remain recoverable.
+
 ## Located sources and update policy
 
 [`sources.json`](sources.json) binds each cited declaration to a commit, document, exact line range and local snapshot hash. [`assets/projects.json`](assets/projects.json) holds the normalized roles and decision axes. Current HEAD reachability is recorded separately; it is not a maintenance or security assessment. Licensing is version- and directory-specific. Re-read the selected release before adoption.
@@ -165,3 +172,5 @@ python3 scripts/verify_sources.py --online
 ```
 
 These checks validate source binding, excerpts, hashes, language, the decision asset and nonempty public content. They do not certify feature behavior, migration success or restore success. No popularity score, paid placement or affiliate ranking is used. Restricted-license and historical examples are explicit contrasts, not silently recommended open-source defaults.
+
+If this saved you a decision, star the repo — it is how the next reader finds it.
